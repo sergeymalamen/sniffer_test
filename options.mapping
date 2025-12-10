@@ -1,0 +1,24 @@
+{
+  "1100": {
+    "0": {"name":"supply_temp","title":"Подача","scale":0.1,"unit":"°C","device_class":"temperature"},
+    "1": {"name":"return_temp","title":"Обратка","scale":0.1,"unit":"°C","device_class":"temperature"}
+  },
+  "1200": {
+    "0": {"name":"outdoor_temp","title":"Улица","scale":0.1,"unit":"°C","device_class":"temperature"}
+  },
+  "1300": {
+    "0": {"name":"compressor_freq","title":"Частота компрессора","scale":1,"unit":"Hz"}
+  },
+  "1400": {
+    "0": {"name":"power_consumption","title":"Мощность","scale":1,"unit":"W"}
+  },
+  "2000": {
+    "0": {"name":"setpoint","title":"Задача","scale":0.1,"unit":"°C"}
+  },
+  "2100": {
+    "0": {"name":"pump_switch","title":"Насос","scale":1,"unit":"","device_class":"switch"}
+  },
+  "2200": {
+    "0": {"name":"mode","title":"Режим работы","scale":1,"unit":""}
+  }
+}

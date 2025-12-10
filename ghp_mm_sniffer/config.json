@@ -1,5 +1,5 @@
 {
-  "name": "GHP-MM Sniffer",
+  "name": "GHP-MM Sniffer Grundig",
   "version": "1.0",
   "slug": "ghp_mm_sniffer",
   "description": "Gree / Cooper&Hunter / Grundig GHP-08 RS485 sniffer with MQTT",

@@ -1,4 +1,6 @@
 {
-  "name": "Sergeymalamen Add-ons_Grundig",
-  "url": "https://github.com/sergeymalamen/sniffer_test"
+  "name": "GHP-MM Sniffer",
+  "url": "https://github.com/sergeymalamen/sniffer_test",
+  "maintainer": "Sergey Malamen"
 }
+

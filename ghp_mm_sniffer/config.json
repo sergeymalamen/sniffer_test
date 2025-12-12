@@ -2,7 +2,6 @@
   "name": "GHP-MM Sniffer",
   "version": "1.0",
   "slug": "ghp_mm_sniffer",
-  "init": false,
   "description": "Gree / Cooper&Hunter / Grundig GHP-08 RS485 sniffer with MQTT",
   "arch": ["aarch64", "amd64", "armv7"],
   "startup": "application",
@@ -24,8 +23,7 @@
     "topic_prefix": "str"
   },
   "devices": ["/dev/ttyUSB0:/dev/ttyUSB0:rwm"],
-  "map": ["config:rw"],
-  "command": "python3 ghp_sniffer.py --mqtt"
+  "map": ["config:rw"]
 }
 
 

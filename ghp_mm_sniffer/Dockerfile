@@ -9,8 +9,8 @@ COPY requirements.txt .
 RUN pip3 install --break-system-packages --no-cache-dir -r requirements.txt
 
 COPY ghp_sniffer.py .
-COPY ghp_config_template.py .
 COPY run.sh .
 
 RUN chmod a+x /usr/src/app/run.sh
+
 CMD [ "/usr/src/app/run.sh" ]

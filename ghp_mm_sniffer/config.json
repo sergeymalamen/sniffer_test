@@ -1,29 +1,12 @@
 {
   "name": "GHP-MM Sniffer",
-  "version": "1.0",
   "slug": "ghp_mm_sniffer",
-  "description": "Gree / Cooper&Hunter / Grundig GHP-08 RS485 sniffer with MQTT",
+  "version": "1.0",
+
   "arch": ["aarch64", "armv7", "amd64", "i386"],
+
   "startup": "services",
   "boot": "auto",
-
-  "options": {
-    "mqtt": true,
-    "mqtt_host": "core-mosquitto",
-    "mqtt_port": 1883,
-    "mqtt_user": "celiv",
-    "mqtt_password": "230960",
-    "topic_prefix": "ghp08"
-  },
-
-  "schema": {
-    "mqtt": "bool",
-    "mqtt_host": "str",
-    "mqtt_port": "int",
-    "mqtt_user": "str",
-    "mqtt_password": "str",
-    "topic_prefix": "str"
-  },
 
   "devices": [
     "/dev/ttyUSB0:/dev/ttyUSB0:rwm"
@@ -31,4 +14,3 @@
 
   "map": ["config:rw"]
 }
-

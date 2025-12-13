@@ -1,6 +1,0 @@
-{
-  "name": "GHP-MM Addons",
-  "url": "https://github.com/sergeymalamen/sniffer_test",
-  "maintainer": "Sergey Malamen",
-  "addons": ["ghp_mm_sniffer"]
-}

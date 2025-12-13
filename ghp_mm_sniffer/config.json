@@ -3,6 +3,7 @@
   "version": "1.0",
   "slug": "ghp_mm_sniffer",
   "description": "Gree / Cooper&Hunter / Grundig GHP-08 RS485 sniffer with MQTT",
+  "arch": ["aarch64", "armv7", "amd64", "i386"],
   "startup": "services",
   "boot": "auto",
 
